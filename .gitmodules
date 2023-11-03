@@ -7,3 +7,22 @@
 [submodule ".oh-my-zsh-custom/themes/dracula"]
 	path = .oh-my-zsh-custom/themes/dracula
 	url = https://github.com/dracula/zsh.git
+[submodule ".vim/pack/plugins/start/editorconfig"]
+	path = .vim/pack/plugins/start/editorconfig
+	url = https://github.com/editorconfig/editorconfig-vim.git
+[submodule ".vim/pack/plugins/start/lightline"]
+	path = .vim/pack/plugins/start/lightline
+	url = https://github.com/itchyny/lightline.vim
+[submodule ".vim/pack/plugins/start/polyglot"]
+	path = .vim/pack/plugins/start/polyglot
+	url = https://github.com/00dani/vim-polyglot.git
+	branch = feature/fix-build
+[submodule ".vim/pack/plugins/start/sensible"]
+	path = .vim/pack/plugins/start/sensible
+	url = https://tpope.io/vim/sensible.git
+[submodule ".vim/pack/plugins/start/vinegar"]
+	path = .vim/pack/plugins/start/vinegar
+	url = https://github.com/tpope/vim-vinegar.git
+[submodule ".vim/pack/themes/start/dracula"]
+	path = .vim/pack/themes/start/dracula
+	url = https://github.com/dracula/vim.git

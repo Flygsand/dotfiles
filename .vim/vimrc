@@ -1,0 +1,24 @@
+set nocompatible
+
+if $COLORTERM !=# "truecolor" && $COLORTERM !=# "24bit"
+    let g:dracula_colorterm = 0
+else
+    set termguicolors
+endif
+
+let g:lightline = {
+    \ 'colorscheme': 'dracula',
+    \ }
+
+let g:polyglot_disabled = ['autoindent']
+
+if v:version < 802
+    packadd! dracula
+endif
+syntax enable
+colorscheme dracula
+
+set rtp+=/usr/local/opt/fzf
+nnoremap <silent> <C-p> :FZF<CR>
+
+au BufNewFile,BufRead *.service setf systemd
