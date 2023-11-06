@@ -1,5 +1,6 @@
 tap "homebrew/cask"
 
+brew "chroma"
 brew "colima"
 brew "coreutils"
 brew "docker"
