@@ -19,7 +19,7 @@ zstyle ':omz:*' aliases no
 zstyle ':omz:lib:theme-and-appearance' aliases yes
 zstyle ':omz:plugins:colorize' aliases yes
 zstyle ':omz:plugins:iterm2' shell-integration yes
-plugins=(asdf colored-man-pages colorize fzf gitfast gradle iterm2 mvn thefuck zsh-autosuggestions zsh-syntax-highlighting)
+plugins=(asdf colored-man-pages colorize dirhistory fzf gitfast gradle iterm2 mvn thefuck zsh-autosuggestions zsh-syntax-highlighting)
 source "$ZSH/oh-my-zsh.sh"
 
 export PATH="$HOME/.go/bin:$PATH"
